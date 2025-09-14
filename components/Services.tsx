@@ -121,7 +121,7 @@ export default function Services({ language }: ServicesProps) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 relative z-10">
-          <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-gray-900 via-[#75604B] to-gray-900 bg-clip-text text-transparent mb-4 animate-slide-up">
+          <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-gray-900 via-[#75604B] to-gray-900 bg-clip-text text-transparent mb-2 animate-slide-up leading-none pb-2">
             {t.title}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto animate-slide-up animate-stagger-1">
