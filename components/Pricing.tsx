@@ -87,12 +87,10 @@ const translations = {
       },
       {
         name: "ინდივიდუალური პაკეტი",
-        price: "5000$",
-        duration: "1+1 თვე",
-        description: "დღეში 2 საათი, 4k რეზოლუცია",
+        price: "",
+        duration: "",
+        description: "4k რეზოლუცია",
         features: [
-          "1+1 თვე (2 თვე სულ)",
-          "დღეში 2 საათი ჩვენება",
           "Display 960x320 ხილვადობა 3-20 მეტრი",
           "პრემიუმ ხარისხი",
           "მაქსიმალური ხილვადობა",
@@ -180,12 +178,10 @@ const translations = {
       },
       {
         name: "Individual Package",
-        price: "$5000",
-        duration: "1+1 Month",
-        description: "2 hours daily, 4k resolution",
+        price: "",
+        duration: "",
+        description: "4k resolution",
         features: [
-          "1+1 Month (2 months total)",
-          "2 Hours Daily Display",
           "Display 960x320 Visibility 3-20 meters",
           "Premium Quality",
           "Maximum Visibility",
@@ -416,20 +412,20 @@ export default function Pricing({ language }: PricingProps) {
                   </h3>
 
                   {/* Price */}
-                  <div className="mb-4">
+                    <div className={`mb-${index === 0 ? "4" : "0"}`}>
                     <span className="text-4xl font-bold text-[#75604B]">
                       {pkg.price}
                     </span>
-                    <span className="text-gray-600 ml-2">/ {pkg.duration}</span>
-                  </div>
+                    <div className="mb-1"></div>
+                    </div>
 
                   {/* Description */}
-                  <p className="text-gray-600 mb-6 group-hover:text-gray-700 transition-colors duration-300 text-lg">
+                  <p className={`text-gray-600 group-hover:text-gray-700 transition-colors duration-300 text-lg ${pkg.price ? 'mb-6' : 'mb-6'}`}>
                     {pkg.description}
                   </p>
 
                   {/* Features */}
-                  <ul className="space-y-4 mb-8">
+                  <ul className={`space-y-4 ${pkg.price ? 'mb-8' : 'mb-6'}`}>
                     {pkg.features.map((feature, featureIndex) => (
                       <li
                         key={featureIndex}
