@@ -23,8 +23,8 @@ const translations = {
       send: 'გაგზავნა'
     },
     info: {
-      email: 'hello@adgo.ge',
-      phone: '+995 555 123 456',
+      email: 'sales@adgo.ge',
+      phone: '+995 597 14 11 99 | 593 68 42 68',
       address: 'თბილისი, საქართველო'
     }
   },
@@ -43,8 +43,8 @@ const translations = {
       send: 'Send Message'
     },
     info: {
-      email: 'hello@adgo.ge',
-      phone: '+995 555 123 456',
+      email: 'sales@adgo.ge',
+      phone: '+995 597 14 11 99 | 593 68 42 68',
       address: 'Tbilisi, Georgia'
     }
   }

@@ -23,21 +23,6 @@ const translations = {
         description: 'GPS ტრეკინგი და რეკლამის ეფექტურობის ანალიზი'
       },
       {
-        icon: Target,
-        title: 'გეო-ტარგეტინგი',
-        description: 'სპეციფიკურ რაიონებში თქვენი რეკლამის ჩვენება'
-      },
-      {
-        icon: Palette,
-        title: 'კრეატიული დიზაინი',
-        description: 'პროფესიონალური რეკლამის დიზაინი და ანიმაცია'
-      },
-      {
-        icon: Zap,
-        title: 'სწრაფი განთავსება',
-        description: '24 საათში თქვენი რეკლამა ქუჩებში'
-      },
-      {
         icon: Award,
         title: 'ანალიტიკა',
         description: 'დეტალური რეპორტები და ROI გაზომვა'
@@ -112,7 +97,7 @@ export default function Services({ language }: ServicesProps) {
   }, [t.services]);
 
   return (
-    <section ref={sectionRef} id="services" className="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section ref={sectionRef} id="services" className="py-20 md:pt-0 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-r from-blue-400/5 to-purple-400/5 rounded-full blur-3xl animate-float"></div>

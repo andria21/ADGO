@@ -16,7 +16,7 @@ const translations = {
     about: 'ჩვენს შესახებ',
     contact: 'კონტაქტი',
     followUs: 'გაგვყევით',
-    rights: '© 2024 ADGO. ყველა უფლება დაცულია.',
+    rights: '© 2025 ADGO. ყველა უფლება დაცულია.',
     privacy: 'კონფიდენციალურობის პოლიტიკა',
     terms: 'მომსახურების პირობები'
   },
@@ -28,7 +28,7 @@ const translations = {
     about: 'About',
     contact: 'Contact',
     followUs: 'Follow Us',
-    rights: '© 2024 ADGO. All rights reserved.',
+    rights: '© 2025 ADGO. All rights reserved.',
     privacy: 'Privacy Policy',
     terms: 'Terms of Service'
   }

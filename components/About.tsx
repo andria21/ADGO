@@ -28,11 +28,6 @@ const translations = {
         title: 'გეო-ზუსტობა',
         description: 'სწორედ იქ, სადაც თქვენი მომხმარებლები არიან'
       },
-      {
-        icon: Heart,
-        title: '24/7 მუშაობა',
-        description: 'თქვენი რეკლამა მუშაობს დღე-ღამე, ყოველ დღე'
-      }
     ]
   },
   en: {
@@ -116,7 +111,7 @@ export default function About({ language }: AboutProps) {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
           {t.values.map((value, index) => {
             const IconComponent = value.icon;
             const isValueVisible = visibleValues.includes(index);
