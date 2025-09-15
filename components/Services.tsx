@@ -44,21 +44,6 @@ const translations = {
         description: 'GPS tracking and advertising effectiveness analysis'
       },
       {
-        icon: Target,
-        title: 'Geo-targeting',
-        description: 'Display your ads in specific neighborhoods and areas'
-      },
-      {
-        icon: Palette,
-        title: 'Creative Design',
-        description: 'Professional advertising design and animation services'
-      },
-      {
-        icon: Zap,
-        title: 'Quick Deployment',
-        description: 'Your ads on the streets within 24 hours'
-      },
-      {
         icon: Award,
         title: 'Analytics',
         description: 'Detailed reports and ROI measurement'

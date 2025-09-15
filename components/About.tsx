@@ -50,11 +50,6 @@ const translations = {
         title: 'Geo-Precision',
         description: 'Right where your customers are located'
       },
-      {
-        icon: Heart,
-        title: '24/7 Operation',
-        description: 'Your ads work day and night, every single day'
-      }
     ]
   }
 };
