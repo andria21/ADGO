@@ -10,7 +10,7 @@ interface ServicesProps {
 const translations = {
   ka: {
     title: 'ჩვენი სერვისები',
-    subtitle: 'ვთავაზობთ ინოვაციურ ტაქსი რეკლამის გადაწყვეტილებებს',
+    subtitle: 'ვთავაზობთ ინოვაციურ ტაქსი რეკლამას',
     services: [
       {
         icon: Globe,
