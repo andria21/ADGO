@@ -110,7 +110,7 @@ const translations = {
     contactUs: "Contact Us",
     packages: [
       {
-        name: "Standard 1 Hour",
+        name: "Standard 1 Month",
         price: "$1500",
         duration: "1 Hour",
         description: "Standard package on 5 cars, 4k resolution",
@@ -126,7 +126,7 @@ const translations = {
         popular: false,
       },
       {
-        name: "Standard 2 Hours",
+        name: "Standard 2 Month",
         price: "$2300",
         duration: "2 Hours",
         description: "Standard package on 5 cars, 4k resolution",
