@@ -23,7 +23,7 @@ const translations = {
         description: "5 მანქანაზე სტანდარტული პაკეტი, 4k რეზოლუცია",
         features: [
           "5 აქტიური ტაქსი",
-          "1 საათი ჩვენება",
+          "1 საათი ჩვენება დღეში",
           "Display 960x320 ხილვადობა 3-20 მეტრი",
           "HD ხარისხის ეკრანები",
           "რეალ-დროის მონიტორინგი",
@@ -39,7 +39,7 @@ const translations = {
         description: "5 მანქანაზე სტანდარტული პაკეტი, 4k რეზოლუცია",
         features: [
           "5 აქტიური ტაქსი",
-          "2 საათი ჩვენება",
+          "2 საათი ჩვენება დღეში",
           "Display 960x320 ხილვადობა 3-20 მეტრი",
           "HD ხარისხის ეკრანები",
           "რეალ-დროის მონიტორინგი",
@@ -412,20 +412,24 @@ export default function Pricing({ language }: PricingProps) {
                   </h3>
 
                   {/* Price */}
-                    <div className={`mb-${index === 0 ? "4" : "0"}`}>
+                  <div className={`mb-${index === 0 ? "4" : "0"}`}>
                     <span className="text-4xl font-bold text-[#75604B]">
                       {pkg.price}
                     </span>
                     <div className="mb-1"></div>
-                    </div>
+                  </div>
 
                   {/* Description */}
-                  <p className={`text-gray-600 group-hover:text-gray-700 transition-colors duration-300 text-lg ${pkg.price ? 'mb-6' : 'mb-6'}`}>
+                  <p
+                    className={`text-gray-600 group-hover:text-gray-700 transition-colors duration-300 text-lg ${
+                      pkg.price ? "mb-6" : "mb-6"
+                    }`}
+                  >
                     {pkg.description}
                   </p>
 
                   {/* Features */}
-                  <ul className={`space-y-4 ${pkg.price ? 'mb-8' : 'mb-6'}`}>
+                  <ul className={`space-y-4 ${pkg.price ? "mb-8" : "mb-6"}`}>
                     {pkg.features.map((feature, featureIndex) => (
                       <li
                         key={featureIndex}
